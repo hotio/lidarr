@@ -1,11 +1,5 @@
 # [Lidarr](https://github.com/lidarr/Lidarr)
 
-## Support on Beerpay
-
-Hey dude! Help me out for a couple of :beers:!
-
-[![Beerpay](https://beerpay.io/hotio/docker-lidarr/badge.svg)](https://beerpay.io/hotio/docker-lidarr)
-
 ## Donations
 
 NANO: `xrb_1bxqm6nsm55s64rgf8f5k9m795hda535to6y15ik496goatakpupjfqzokfc`  
