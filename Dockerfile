@@ -17,7 +17,7 @@ RUN apt update && \
 
 # install app
 # https://github.com/lidarr/Lidarr/releases
-RUN curl -fsSL "https://github.com/lidarr/Lidarr/releases/download/v0.6.1.830/Lidarr.develop.0.6.1.830.linux.tar.gz" | tar xzf - -C "${APP_DIR}" --strip-components=1 && \
+RUN curl -fsSL "https://github.com/lidarr/Lidarr/releases/download/v0.6.2.883/Lidarr.develop.0.6.2.883.linux.tar.gz" | tar xzf - -C "${APP_DIR}" --strip-components=1 && \
     chmod -R u=rwX,go=rX "${APP_DIR}"
 
 COPY root/ /
