@@ -13,11 +13,6 @@ if [[ "${VERSION}" != "image" ]]; then
             unstable)
                 url=$(curl -fsSL "https://services.lidarr.audio/v1/update/nightly/changes?os=linux" | jq -r .[0].url)
                 ;;
-            unstable-appveyor)
-                jobid=$(curl -fsSL "https://ci.appveyor.com/api/projects/lidarr/lidarr/branch/develop" | jq -r '.build.jobs[0].jobId')
-                filename=$(curl -fsSL "https://ci.appveyor.com/api/buildjobs/${jobid}/artifacts" | jq -r '.[].fileName' | grep -o ".*Lidarr.*.linux.tar.gz")
-                url="https://ci.appveyor.com/api/buildjobs/${jobid}/artifacts/${filename}"
-                ;;
             *)
                 url="${VERSION}"
                 ;;
