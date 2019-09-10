@@ -139,3 +139,23 @@ depends_on:
   - linux-amd64
   - linux-arm64
   - linux-arm
+
+---
+kind: pipeline
+name: dockerhubdesc
+
+trigger:
+  event:
+    - tag
+    - push
+
+steps:
+- name: dockerhubdesc
+  image: peterevans/dockerhub-description:2.0.0
+  pull: always
+  environment:
+    DOCKERHUB_USERNAME:
+      from_secret: docker_username
+    DOCKERHUB_PASSWORD:
+      from_secret: docker_password
+    DOCKERHUB_REPOSITORY: hotio/lidarr
