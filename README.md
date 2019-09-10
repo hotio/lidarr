@@ -1,7 +1,8 @@
-# [docker-lidarr](https://github.com/hotio/docker-lidarr)
+# lidarr
 
-![Docker Pulls](https://img.shields.io/docker/pulls/hotio/lidarr?style=flat-square)
-![Drone (cloud)](https://img.shields.io/drone/build/hotio/docker-lidarr?style=flat-square)
+[![GitHub](https://img.shields.io/badge/source-github-lightgrey?style=flat-square)](https://github.com/hotio/docker-lidarr)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/lidarr?style=flat-square)](https://hub.docker.com/r/hotio/lidarr)
+[![Drone (cloud)](https://img.shields.io/drone/build/hotio/docker-lidarr?style=flat-square)](https://cloud.drone.io/hotio/docker-lidarr)
 
 ## Donations
 
