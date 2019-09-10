@@ -1,11 +1,7 @@
 FROM hotio/mono
 
 ARG DEBIAN_FRONTEND="noninteractive"
-ARG COMMIT
-ARG TAG
 
-ENV COMMIT="${COMMIT}" TAG="${TAG}"
-ENV APP="Lidarr"
 EXPOSE 8686
 HEALTHCHECK --interval=60s CMD curl -fsSL http://localhost:8686 || exit 1
 
@@ -24,3 +20,9 @@ RUN curl -fsSL "https://github.com/lidarr/Lidarr/releases/download/v0.7.0.1347/L
     chmod -R u=rwX,go=rX "${APP_DIR}"
 
 COPY root/ /
+
+ARG COMMIT
+ARG TAG
+ARG APP
+
+ENV COMMIT="${COMMIT}" TAG="${TAG}" APP="${APP}"
