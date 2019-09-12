@@ -14,12 +14,9 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-# install app
-# https://github.com/lidarr/Lidarr/releases
-RUN curl -fsSL "https://github.com/lidarr/Lidarr/releases/download/v0.7.0.1347/Lidarr.master.0.7.0.1347.linux.tar.gz" | tar xzf - -C "${APP_DIR}" --strip-components=1 && \
-    chmod -R u=rwX,go=rX "${APP_DIR}"
-
 COPY root/ /
 
-ARG TAG
-ENV TAG="${TAG}"
+# install app
+RUN version=$(sed -n '1p' /versions/lidarr) && \
+    curl -fsSL "https://github.com/lidarr/Lidarr/releases/download/v${version}/Lidarr.master.${version}.linux.tar.gz" | tar xzf - -C "${APP_DIR}" --strip-components=1 && \
+    chmod -R u=rwX,go=rX "${APP_DIR}"
