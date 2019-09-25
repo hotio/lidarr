@@ -4,7 +4,6 @@ FROM hotio/mono:${BRANCH}
 ARG DEBIAN_FRONTEND="noninteractive"
 
 EXPOSE 8686
-HEALTHCHECK --interval=60s CMD curl -fsSL http://localhost:8686 || exit 1
 
 # install packages
 RUN apt update && \
