@@ -15,7 +15,7 @@ RUN apt update && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
 # https://github.com/lidarr/Lidarr/releases
-ENV LIDARR_VERSION=0.7.1.1381
+ARG LIDARR_VERSION=0.7.1.1381
 
 # install app
 RUN curl -fsSL "https://github.com/lidarr/Lidarr/releases/download/v${LIDARR_VERSION}/Lidarr.master.${LIDARR_VERSION}.linux.tar.gz" | tar xzf - -C "${APP_DIR}" --strip-components=1 && \
