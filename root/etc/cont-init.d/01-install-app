@@ -11,7 +11,7 @@ if [[ "${VERSION}" != "image" ]]; then
                 url=$(curl -fsSL "https://api.github.com/repos/lidarr/lidarr/releases" | jq -r .[0].assets[].browser_download_url | grep -o ".*Lidarr.*.linux.tar.gz")
                 ;;
             unstable)
-                url=$(curl -fsSL "https://services.lidarr.audio/v1/update/nightly/changes?os=linux" | jq -r .[0].url)
+                url=$(curl -fsSL "https://services.lidarr.audio/v1/update/nightly/changes?os=linux&runtime=mono" | jq -r .[0].url)
                 ;;
             *)
                 url="${VERSION}"
