@@ -6,12 +6,20 @@ if [[ "${VERSION}" != "image" ]]; then
         echo -e '\e[31m'"Incorrect mount detected! Aborting app installation for security reasons."'\e[0m'
         exit 1
     else
-        case "${VERSION}" in
-            stable)
-                url=$(curl -fsSL "https://api.github.com/repos/lidarr/lidarr/releases" | jq -r .[0].assets[].browser_download_url | grep -o ".*Lidarr.*.linux.tar.gz")
+        case "${ARCH}" in
+            linux-amd64)
+                architecture="x64"
                 ;;
-            unstable)
-                url=$(curl -fsSL "https://services.lidarr.audio/v1/update/nightly/changes?os=linux&runtime=mono" | jq -r .[0].url)
+            linux-arm64)
+                architecture="arm64"
+                ;;
+            linux-arm)
+                architecture="arm"
+                ;;
+        esac
+        case "${VERSION}" in
+            stable|unstable)
+                url=$(curl -fsSL "https://services.lidarr.audio/v1/update/nightly/changes?os=linux&runtime=netcore&arch=${architecture}" | jq -r .[0].url)
                 ;;
             *)
                 url="${VERSION}"

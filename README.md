@@ -27,8 +27,8 @@ Possible values for `VERSION`:
 VERSION=image
 VERSION=stable
 VERSION=unstable
-VERSION=https://github.com/lidarr/Lidarr/releases/download/v0.3.0.430/Lidarr.develop.0.3.0.430.linux.tar.gz
-VERSION=file:///config/Lidarr.develop.0.3.0.430.linux.tar.gz
+VERSION=https://services.lidarr.audio/v1/update/nightly/updatefile?version=0.7.1.1574&os=linux&runtime=netcore&arch=x64
+VERSION=file:///config/Lidarr.develop.0.7.1.1574.linux-core-x64.tar.gz
 ```
 
 ## Executing your own scripts
