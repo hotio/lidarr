@@ -9,7 +9,7 @@
 Just the basics to get the container running:
 
 ```shell
-docker run --rm --name lidarr -p 8686:8686 -v /tmp/lidarr:/config -e TZ=Etc/UTC hotio/lidarr
+docker run --rm --name lidarr -p 8686:8686 -v /tmp/lidarr:/config -e TZ=Etc/UTC hotio/lidarr:netcore
 ```
 
 The environment variables below are all optional, the values you see are the defaults.
@@ -18,17 +18,6 @@ The environment variables below are all optional, the values you see are the def
 -e PUID=1000
 -e PGID=1000
 -e UMASK=022
--e VERSION=image
-```
-
-Possible values for `VERSION`:
-
-```shell
-VERSION=image
-VERSION=stable
-VERSION=unstable
-VERSION=https://services.lidarr.audio/v1/update/nightly/updatefile?version=0.7.1.1574&os=linux&runtime=netcore&arch=x64
-VERSION=file:///config/Lidarr.develop.0.7.1.1574.linux-core-x64.tar.gz
 ```
 
 ## Executing your own scripts
