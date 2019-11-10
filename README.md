@@ -18,17 +18,6 @@ The environment variables below are all optional, the values you see are the def
 -e PUID=1000
 -e PGID=1000
 -e UMASK=022
--e VERSION=image
-```
-
-Possible values for `VERSION`:
-
-```shell
-VERSION=image
-VERSION=stable
-VERSION=unstable
-VERSION=https://github.com/lidarr/Lidarr/releases/download/v0.3.0.430/Lidarr.develop.0.3.0.430.linux.tar.gz
-VERSION=file:///config/Lidarr.develop.0.3.0.430.linux.tar.gz
 ```
 
 ## Tags
