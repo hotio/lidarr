@@ -1,8 +1,7 @@
 # lidarr
 
-[![GitHub](https://img.shields.io/badge/source-github-lightgrey?style=flat-square)](https://github.com/hotio/docker-lidarr)
-[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/lidarr?style=flat-square)](https://hub.docker.com/r/hotio/lidarr)
-[![Drone (cloud)](https://img.shields.io/drone/build/hotio/docker-lidarr?style=flat-square)](https://cloud.drone.io/hotio/docker-lidarr)
+[![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-lidarr)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/lidarr)](https://hub.docker.com/r/hotio/lidarr)
 
 ## Starting the container
 
@@ -22,11 +21,11 @@ The environment variables below are all optional, the values you see are the def
 
 ## Tags
 
-| Tag     | Description                                         |
-| --------|-----------------------------------------------------|
-| latest  | The same as `stable`                                |
-| stable  | Stable version                                      |
-| netcore | Unstable version, runs on .NET Core instead of Mono |
+| Tag     | Description                                         | Build Status                                                                                                                                            |
+| --------|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| latest  | The same as `stable`                                |                                                                                                                                                         |
+| stable  | Stable version                                      | [![Build Status](https://cloud.drone.io/api/badges/hotio/docker-lidarr/status.svg?ref=refs/heads/stable)](https://cloud.drone.io/hotio/docker-lidarr)   |
+| netcore | Unstable version, runs on .NET Core instead of Mono | [![Build Status](https://cloud.drone.io/api/badges/hotio/docker-lidarr/status.svg?ref=refs/heads/netcore)](https://cloud.drone.io/hotio/docker-lidarr) |
 
 You can also find tags that reference a commit or version number.
 
