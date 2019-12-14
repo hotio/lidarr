@@ -1,5 +1,4 @@
 #!/bin/bash
-#!/bin/bash
 
 if [[ ${1} == "screenshot" ]]; then
     SERVICE_IP="http://$(dig +short service):8686"
