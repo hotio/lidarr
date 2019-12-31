@@ -9,7 +9,7 @@
 Just the basics to get the container running:
 
 ```shell
-docker run --rm --name lidarr -p 8686:8686 -v /<host_folder>:/config hotio/lidarr
+docker run --rm --name lidarr -p 8686:8686 -v /<host_folder_config>:/config hotio/lidarr
 ```
 
 The environment variables below are all optional, the values you see are the defaults.
