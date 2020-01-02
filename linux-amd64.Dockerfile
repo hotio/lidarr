@@ -16,7 +16,7 @@ RUN apt update && \
 ARG LIDARR_VERSION=0.7.1.1381
 
 # install app
-RUN curl -fsSL "https://services.lidarr.audio/v1/update/master/updatefile?version=${LIDARR_VERSION}&os=linux&runtime=mono&arch=x64" | tar xzf - -C "${APP_DIR}" --strip-components=1 && \
+RUN curl -fsSL "https://services.lidarr.audio/v1/update/develop/updatefile?version=${LIDARR_VERSION}&os=linux&runtime=mono&arch=x64" | tar xzf - -C "${APP_DIR}" --strip-components=1 && \
     rm -rf "${APP_DIR}/Lidarr.Update" && \
     chmod -R u=rwX,go=rX "${APP_DIR}"
 
