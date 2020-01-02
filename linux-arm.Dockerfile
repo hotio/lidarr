@@ -13,7 +13,6 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-# https://github.com/lidarr/Lidarr/releases
 ARG LIDARR_VERSION=0.7.1.1381
 
 # install app
