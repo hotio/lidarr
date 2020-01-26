@@ -50,9 +50,13 @@ elif [[ ${1} == "checkdigests" ]]; then
     digest=$(echo "${manifest}" | jq -r '.manifests[] | select (.platform.architecture == "arm" and .platform.os == "linux").digest')   && sed -i "s#FROM .*\$#FROM ${image}@${digest}#g" ./linux-arm.Dockerfile   && echo "${digest}"
     digest=$(echo "${manifest}" | jq -r '.manifests[] | select (.platform.architecture == "arm64" and .platform.os == "linux").digest') && sed -i "s#FROM .*\$#FROM ${image}@${digest}#g" ./linux-arm64.Dockerfile && echo "${digest}"
 else
-    version=$(curl -fsSL "https://services.lidarr.audio/v1/update/nightly/changes?os=linux" | jq -r .[0].version)
+    branch=$(curl -fsSL "https://api.github.com/repos/lidarr/lidarr/pulls?state=open&base=develop" | jq -r 'sort_by(.updated_at) | .[] | select(.head.repo.full_name == "lidarr/Lidarr") | .head.ref' | tail -n 1)
+    version=$(curl -fsSL "https://services.lidarr.audio/v1/update/${branch}/changes?os=linux" | jq -r .[0].version)
     [[ -z ${version} ]] && exit 1
+    [[ ${version} == null ]] && exit 0
     find . -type f -name '*.Dockerfile' -exec sed -i "s/ARG LIDARR_VERSION=.*$/ARG LIDARR_VERSION=${version}/g" {} \;
-    sed -i "s/{TAG_VERSION=.*}$/{TAG_VERSION=${version}}/g" .drone.yml
-    echo "##[set-output name=version;]${version}"
+    find . -type f -name '*.Dockerfile' -exec sed -i "s/ARG LIDARR_BRANCH=.*$/ARG LIDARR_BRANCH=${branch}/g" {} \;
+    sed -i "s/{TAG_VERSION=.*}$/{TAG_VERSION=${branch}-${version}}/g" .drone.yml
+    sed -i "s/{TAG_BRANCH=.*}$/{TAG_BRANCH=${branch}}/g" .drone.yml
+    echo "##[set-output name=version;]${branch}-${version}"
 fi
