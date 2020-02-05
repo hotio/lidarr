@@ -4,7 +4,7 @@ ARG DEBIAN_FRONTEND="noninteractive"
 
 EXPOSE 8686
 
-ARG LIDARR_VERSION=0.7.1.1570
+ARG LIDARR_VERSION=0.7.1.1625
 ARG LIDARR_BRANCH=fix-seedbox-import
 
 # install app
