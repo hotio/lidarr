@@ -4,7 +4,7 @@ ARG DEBIAN_FRONTEND="noninteractive"
 
 EXPOSE 8686
 
-ARG LIDARR_VERSION=0.7.1.1630
+ARG LIDARR_VERSION=0.7.1.1632
 ARG LIDARR_BRANCH=root-folder-scanning
 
 # install app
