@@ -2,15 +2,9 @@ FROM hotio/dotnetcore@sha256:cf67da1687fc378c496e2d896a932691e2838b27ce6a9764ed5
 
 ARG DEBIAN_FRONTEND="noninteractive"
 
-ENV UNPACKERR="disabled"
-
 EXPOSE 8686
 
-ARG UNPACKERR_VERSION=0.7.0-beta1
-
-# install unpackerr
-RUN curl -fsSL "https://github.com/davidnewhall/unpackerr/releases/download/v${UNPACKERR_VERSION}/unpackerr.amd64.linux.gz" | gunzip | dd of=/usr/local/bin/unpackerr && chmod 755 /usr/local/bin/unpackerr
-
+# https://services.lidarr.audio/v1/update/nightly/changes?os=linux
 ARG LIDARR_VERSION=0.7.1.1633
 
 # install app
