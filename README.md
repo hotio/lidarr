@@ -1,5 +1,7 @@
 # lidarr
 
+![Logo](https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/lidarr.png)  
+
 [![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-lidarr)
 [![Docker Pulls](https://img.shields.io/docker/pulls/hotio/lidarr)](https://hub.docker.com/r/hotio/lidarr)
 [![Discord](https://img.shields.io/discord/610068305893523457?color=738ad6&label=discord&logo=discord&logoColor=white)](https://discord.gg/3SnkuKp)
