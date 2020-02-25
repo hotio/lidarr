@@ -4,6 +4,15 @@ ARG DEBIAN_FRONTEND="noninteractive"
 
 EXPOSE 8686
 
+# install packages
+RUN apt update && \
+    apt install -y --no-install-recommends --no-install-suggests \
+        libchromaprint-tools && \
+# clean up
+    apt autoremove -y && \
+    apt clean && \
+    rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
+
 # https://services.lidarr.audio/v1/update/nightly/changes?os=linux
 ARG LIDARR_VERSION=0.7.1.1641
 
