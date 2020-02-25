@@ -4,7 +4,6 @@ ARG DEBIAN_FRONTEND="noninteractive"
 
 EXPOSE 8686
 
-# https://services.lidarr.audio/v1/update/nightly/changes?os=linux
 ARG LIDARR_VERSION=0.7.1.1641
 
 # install app
