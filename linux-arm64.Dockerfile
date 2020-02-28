@@ -13,8 +13,8 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-ARG LIDARR_VERSION=0.7.1.1642
-ARG LIDARR_BRANCH=incremental-refresh
+ARG LIDARR_VERSION=0.7.1.1643
+ARG LIDARR_BRANCH=fix-lists
 
 # install app
 RUN curl -fsSL "https://services.lidarr.audio/v1/update/${LIDARR_BRANCH}/updatefile?version=${LIDARR_VERSION}&os=linux&runtime=netcore&arch=arm64" | tar xzf - -C "${APP_DIR}" --strip-components=1 && \
