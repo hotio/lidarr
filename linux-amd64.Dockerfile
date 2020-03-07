@@ -4,7 +4,7 @@ ARG DEBIAN_FRONTEND="noninteractive"
 
 EXPOSE 8686
 
-ARG LIDARR_VERSION=0.7.1.1642
+ARG LIDARR_VERSION=0.7.1.1653
 ARG LIDARR_BRANCH=incremental-refresh
 
 # install app
