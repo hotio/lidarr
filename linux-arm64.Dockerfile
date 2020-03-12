@@ -13,7 +13,7 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-ARG LIDARR_VERSION=0.7.1.1653
+ARG LIDARR_VERSION=0.7.1.1654
 ARG LIDARR_BRANCH=incremental-refresh
 
 # install app
