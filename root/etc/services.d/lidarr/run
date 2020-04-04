@@ -12,4 +12,4 @@ redirect_cmd() {
 }
 
 # shellcheck disable=SC2086
-redirect_cmd exec s6-setuidgid hotio mono --debug "${APP_DIR}/Lidarr.exe" --nobrowser --data="${CONFIG_DIR}/app" ${ARGS}
+redirect_cmd exec s6-setuidgid hotio mono --debug "${APP_DIR}/bin/Lidarr.exe" --nobrowser --data="${CONFIG_DIR}/app" ${ARGS}
