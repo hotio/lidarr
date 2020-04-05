@@ -13,7 +13,7 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-ARG LIDARR_VERSION=0.7.1.1669
+ARG LIDARR_VERSION=0.7.1.1670
 ARG LIDARR_BRANCH=package-info
 ARG PACKAGE_VERSION=${LIDARR_VERSION}
 
