@@ -14,12 +14,13 @@ RUN apt update && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
 ARG LIDARR_VERSION=0.7.1.1381
+ARG PACKAGE_VERSION=${RADARR_VERSION}
 
 # install app
 RUN mkdir "${APP_DIR}/bin" && \
     curl -fsSL "https://services.lidarr.audio/v1/update/develop/updatefile?version=${LIDARR_VERSION}&os=linux&runtime=mono" | tar xzf - -C "${APP_DIR}/bin" --strip-components=1 && \
     rm -rf "${APP_DIR}/bin/Lidarr.Update" && \
-    echo "PackageVersion=${LIDARR_VERSION}\nPackageAuthor=hotio\nUpdateMethod=Docker\nBranch=develop" > "${APP_DIR}/package_info" && \
+    echo "PackageVersion=${PACKAGE_VERSION}\nPackageAuthor=hotio\nUpdateMethod=Docker\nBranch=develop" > "${APP_DIR}/package_info" && \
     chmod -R u=rwX,go=rX "${APP_DIR}"
 
 COPY root/ /
