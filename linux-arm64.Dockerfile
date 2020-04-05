@@ -14,7 +14,7 @@ RUN apt update && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
 ARG LIDARR_VERSION=0.7.1.1381
-ARG PACKAGE_VERSION=${RADARR_VERSION}
+ARG PACKAGE_VERSION=${LIDARR_VERSION}
 
 # install app
 RUN mkdir "${APP_DIR}/bin" && \
