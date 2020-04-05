@@ -13,8 +13,8 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-ARG LIDARR_VERSION=0.7.1.1668
-ARG LIDARR_BRANCH=fix-move-artist
+ARG LIDARR_VERSION=0.7.1.1669
+ARG LIDARR_BRANCH=package-info
 
 # install app
 RUN mkdir "${APP_DIR}/bin" && \
