@@ -13,7 +13,7 @@ RUN apt update && \
     apt clean && \
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-ARG LIDARR_VERSION=0.7.1.1665
+ARG LIDARR_VERSION
 ARG PACKAGE_VERSION=${LIDARR_VERSION}
 
 # install app
