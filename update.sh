@@ -50,7 +50,7 @@ elif [[ ${1} == "checkdigests" ]]; then
     digest=$(echo "${manifest}" | jq -r '.manifests[] | select (.platform.architecture == "arm" and .platform.os == "linux").digest')   && sed -i "s#FROM ${image}.*\$#FROM ${image}@${digest}#g" ./linux-arm.Dockerfile   && echo "${digest}"
     digest=$(echo "${manifest}" | jq -r '.manifests[] | select (.platform.architecture == "arm64" and .platform.os == "linux").digest') && sed -i "s#FROM ${image}.*\$#FROM ${image}@${digest}#g" ./linux-arm64.Dockerfile && echo "${digest}"
 else
-    version=$(curl -fsSL "https://services.lidarr.audio/v1/update/master/changes?os=linux" | jq -r .[0].version)
+    version=$(curl -fsSL "https://lidarr.servarr.com/v1/update/master/changes?os=linux" | jq -r .[0].version)
     [[ -z ${version} ]] && exit 1
     sed -i "s/{LIDARR_VERSION=[^}]*}/{LIDARR_VERSION=${version}}/g" .drone.yml
     echo "##[set-output name=version;]${version}"
