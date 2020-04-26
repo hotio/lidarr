@@ -52,6 +52,7 @@ elif [[ ${1} == "checkdigests" ]]; then
 else
     version=$(curl -fsSL "https://lidarr.servarr.com/v1/update/master/changes?os=linux" | jq -r .[0].version)
     [[ -z ${version} ]] && exit 1
+    [[ ${version} == "null" ]] && exit 0
     sed -i "s/{LIDARR_VERSION=[^}]*}/{LIDARR_VERSION=${version}}/g" .drone.yml
     echo "##[set-output name=version;]${version}"
 fi
