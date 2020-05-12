@@ -36,13 +36,13 @@ steps:
     password:
       from_secret: docker_password
     repo: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}
-    cache_from: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${LIDARR_BRANCH=fix-seedbox-import}
+    cache_from: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${LIDARR_BRANCH=incremental-refresh}
     dockerfile: ${DRONE_STAGE_OS}-${DRONE_STAGE_ARCH}.Dockerfile
     tags:
       - ${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}-${DRONE_STAGE_OS}-${DRONE_STAGE_ARCH}
     build_args:
-      - LIDARR_VERSION=${LIDARR_VERSION=0.7.1.1683}
-      - LIDARR_BRANCH=${LIDARR_BRANCH=fix-seedbox-import}
+      - LIDARR_VERSION=${LIDARR_VERSION=0.7.1.1663}
+      - LIDARR_BRANCH=${LIDARR_BRANCH=incremental-refresh}
       - PACKAGE_VERSION=${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}
 
 depends_on:
@@ -104,13 +104,13 @@ steps:
     password:
       from_secret: docker_password
     repo: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}
-    cache_from: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${LIDARR_BRANCH=fix-seedbox-import}
+    cache_from: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${LIDARR_BRANCH=incremental-refresh}
     dockerfile: ${DRONE_STAGE_OS}-${DRONE_STAGE_ARCH}.Dockerfile
     tags:
       - ${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}-${DRONE_STAGE_OS}-${DRONE_STAGE_ARCH}
     build_args:
-      - LIDARR_VERSION=${LIDARR_VERSION=0.7.1.1683}
-      - LIDARR_BRANCH=${LIDARR_BRANCH=fix-seedbox-import}
+      - LIDARR_VERSION=${LIDARR_VERSION=0.7.1.1663}
+      - LIDARR_BRANCH=${LIDARR_BRANCH=incremental-refresh}
       - PACKAGE_VERSION=${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}
 
 depends_on:
@@ -172,13 +172,13 @@ steps:
     password:
       from_secret: docker_password
     repo: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}
-    cache_from: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${LIDARR_BRANCH=fix-seedbox-import}
+    cache_from: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${LIDARR_BRANCH=incremental-refresh}
     dockerfile: ${DRONE_STAGE_OS}-${DRONE_STAGE_ARCH}.Dockerfile
     tags:
       - ${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}-${DRONE_STAGE_OS}-${DRONE_STAGE_ARCH}
     build_args:
-      - LIDARR_VERSION=${LIDARR_VERSION=0.7.1.1683}
-      - LIDARR_BRANCH=${LIDARR_BRANCH=fix-seedbox-import}
+      - LIDARR_VERSION=${LIDARR_VERSION=0.7.1.1663}
+      - LIDARR_BRANCH=${LIDARR_BRANCH=incremental-refresh}
       - PACKAGE_VERSION=${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}
 
 depends_on:
@@ -258,7 +258,7 @@ steps:
       from_secret: docker_username
     password:
       from_secret: docker_password
-    target: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${LIDARR_BRANCH=fix-seedbox-import}
+    target: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${LIDARR_BRANCH=incremental-refresh}
     template: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}-OS-ARCH
     platforms:
       - linux/amd64
@@ -290,7 +290,7 @@ steps:
       from_secret: docker_username
     password:
       from_secret: docker_password
-    target: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${LIDARR_BRANCH=fix-seedbox-import}-${LIDARR_VERSION=0.7.1.1683}
+    target: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${LIDARR_BRANCH=incremental-refresh}-${LIDARR_VERSION=0.7.1.1663}
     template: ${DRONE_REPO_OWNER}/${DRONE_REPO_NAME##docker-}:${DRONE_COMMIT_BRANCH}-${DRONE_COMMIT_SHA:0:7}-${DRONE_BUILD_NUMBER}-OS-ARCH
     platforms:
       - linux/amd64
@@ -323,8 +323,8 @@ steps:
     - bash update.sh checkservice
     - bash update.sh screenshot
   environment:
-    VERSION_FIELD: ${LIDARR_VERSION=0.7.1.1683}
-    PR_BRANCH: -${LIDARR_BRANCH=fix-seedbox-import}
+    VERSION_FIELD: ${LIDARR_VERSION=0.7.1.1663}
+    PR_BRANCH: -${LIDARR_BRANCH=incremental-refresh}
   failure: ignore
 
 - name: discord
@@ -335,8 +335,8 @@ steps:
       from_secret: discord_id
     DISCORD_TOKEN:
       from_secret: discord_token
-    VERSION_FIELD: ${LIDARR_VERSION=0.7.1.1683}
-    PR_BRANCH: -${LIDARR_BRANCH=fix-seedbox-import}
+    VERSION_FIELD: ${LIDARR_VERSION=0.7.1.1663}
+    PR_BRANCH: -${LIDARR_BRANCH=incremental-refresh}
   commands:
     - curl -fsSL https://gist.githubusercontent.com/hotio/d490b6447ddde9634475ddacbc85d8c1/raw/discord-build-notify.sh > discord-build-notify.sh
     - bash discord-build-notify.sh
