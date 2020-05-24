@@ -1,6 +1,6 @@
 # lidarr
 
-<img src="https://raw.githubusercontent.com/hotio/unraid-templates/master/hotio/img/lidarr.png" alt="Logo" height="130" width="130">
+<img src="https://raw.githubusercontent.com/hotio/docker-lidarr/master/img/lidarr.png" alt="Logo" height="130" width="130">
 
 [![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-lidarr)
 [![Docker Pulls](https://img.shields.io/docker/pulls/hotio/lidarr)](https://hub.docker.com/r/hotio/lidarr)
