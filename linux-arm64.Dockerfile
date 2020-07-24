@@ -1,4 +1,4 @@
-FROM hotio/dotnetcore@sha256:1879e7c2b4add3c26466a8194100db78a80ab8be4f795aeaea4533313c8d8678
+FROM hotio/dotnetcore@sha256:0e6a2cec135183b3d9ea7e6a11e44c5670449602afa5b2aea37019cea8e0602f
 
 ARG DEBIAN_FRONTEND="noninteractive"
 
