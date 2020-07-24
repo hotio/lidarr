@@ -3,12 +3,11 @@ FROM hotio/base:focal
 ARG DEBIAN_FRONTEND="noninteractive"
 
 EXPOSE 8686
-ENV DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=true
 
 # install packages
 RUN apt update && \
     apt install -y --no-install-recommends --no-install-suggests \
-        libchromaprint-tools && \
+        libchromaprint-tools libicu66 && \
 # clean up
     apt autoremove -y && \
     apt clean && \
