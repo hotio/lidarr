@@ -4,6 +4,6 @@ branch=$(curl -u "${GITHUB_ACTOR}:${GITHUB_TOKEN}" -fsSL "https://api.github.com
 version=$(curl -fsSL "https://lidarr.servarr.com/v1/update/${branch}/changes?os=linux" | jq -r .[0].version)
 [[ -z ${version} ]] && exit 1
 [[ ${version} == "null" ]] && exit 0
-sed -i "s/{LIDARR_VERSION=[^}]*}/{LIDARR_VERSION=${version}}/g" .drone.yml
-sed -i "s/{LIDARR_BRANCH=[^}]*}/{LIDARR_BRANCH=${branch}}/g" .drone.yml
+sed -i "s/{LIDARR_VERSION=[^}]*}/{LIDARR_VERSION=${version}}/g" .github/workflows/build.yml
+sed -i "s/{LIDARR_BRANCH=[^}]*}/{LIDARR_BRANCH=${branch}}/g" .github/workflows/build.yml
 echo "##[set-output name=version;]${branch}-${version}"
