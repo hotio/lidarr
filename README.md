@@ -28,12 +28,12 @@ The environment variables below are all optional, the values you see are the def
 
 ## Tags
 
-| Tag                  | Description                         | Build Status                                                                                                                                                        | Last Updated                                                                                                                                                                              |
-| ---------------------|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| latest               | The same as `stable`                |                                                                                                                                                                     |                                                                                                                                                                                           |
-| stable               | Stable version, master branch       | [![Build Status](https://cloud.drone.io/api/badges/hotio/docker-lidarr/status.svg?ref=refs/heads/stable)](https://cloud.drone.io/hotio/docker-lidarr)               | [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/hotio/docker-lidarr/stable)](https://github.com/hotio/docker-lidarr/commits/stable)                             |
-| semi-stable          | Semi-Stable version, develop branch | [![Build Status](https://cloud.drone.io/api/badges/hotio/docker-lidarr/status.svg?ref=refs/heads/semi-stable)](https://cloud.drone.io/hotio/docker-lidarr)          | [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/hotio/docker-lidarr/semi-stable)](https://github.com/hotio/docker-lidarr/commits/semi-stable)                   |
-| unstable             | Unstable version, nightly           | [![Build Status](https://cloud.drone.io/api/badges/hotio/docker-lidarr/status.svg?ref=refs/heads/unstable)](https://cloud.drone.io/hotio/docker-lidarr)             | [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/hotio/docker-lidarr/unstable)](https://github.com/hotio/docker-lidarr/commits/unstable)                         |
+| Tag                  | Description                         |
+| ---------------------|-------------------------------------|
+| latest               | The same as `stable`                |
+| stable               | Stable version, master branch       |
+| semi-stable          | Semi-Stable version, develop branch |
+| unstable             | Unstable version, nightly           |
 
 You can also find tags that reference a commit or version number.
 
