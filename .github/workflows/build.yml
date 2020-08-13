@@ -50,6 +50,7 @@ jobs:
             --build-arg LABEL_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/blob/master/README.md" \
             --build-arg LABEL_VERSION="${LIDARR_VERSION=0.7.1.1745}" \
             --build-arg LIDARR_VERSION="${LIDARR_VERSION=0.7.1.1745}" \
+            --build-arg PACKAGE_VERSION="${GITHUB_REF//refs\/heads\//}-${GITHUB_SHA:0:7}-${GITHUB_RUN_NUMBER}" \
             --file ./${ARCHITECTURE}.Dockerfile ./
 
       - name: Prepare for tests
