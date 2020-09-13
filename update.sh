@@ -18,6 +18,7 @@ elif [[ ${1} == "screenshot" ]]; then
     docker run --rm --network host -d --name service -e DEBUG="yes" "${2}"
     currenttime=$(date +%s); maxtime=$((currenttime+60)); while (! curl -fsSL "${app_url}" > /dev/null) && [[ "$currenttime" -lt "$maxtime" ]]; do sleep 1; currenttime=$(date +%s); done
     docker run --rm --network host --entrypoint="" -u "$(id -u "$USER")" -v "${GITHUB_WORKSPACE}":/usr/src/app/src zenika/alpine-chrome:with-puppeteer node src/puppeteer.js
+    exit 0
 else
     branch=$(curl -u "${GITHUB_ACTOR}:${GITHUB_TOKEN}" -fsSL "https://api.github.com/repos/lidarr/lidarr/pulls?state=open&base=develop" | jq -r 'sort_by(.updated_at) | .[] | select((.head.repo.full_name == "lidarr/Lidarr") and (.head.ref | contains("dependabot") | not)) | .head.ref' | tail -n 1)
     version=$(curl -fsSL "https://lidarr.servarr.com/v1/update/${branch}/changes?os=linux" | jq -r .[0].version)
