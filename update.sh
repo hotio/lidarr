@@ -26,6 +26,7 @@ elif [[ ${1} == "screenshot" ]]; then
     docker run --rm --network host -d --name service -e DEBUG="yes" "${2}"
     currenttime=$(date +%s); maxtime=$((currenttime+60)); while (! curl -fsSL "${app_url}" > /dev/null) && [[ "$currenttime" -lt "$maxtime" ]]; do sleep 1; currenttime=$(date +%s); done
     docker run --rm --network host --entrypoint="" -u "$(id -u "$USER")" -v "${GITHUB_WORKSPACE}":/usr/src/app/src zenika/alpine-chrome:with-puppeteer node src/puppeteer.js
+    exit 0
 else
     version=$(curl -fsSL "https://lidarr.servarr.com/v1/update/master/changes?os=linux" | jq -r .[0].version)
     [[ -z ${version} ]] && exit 1
