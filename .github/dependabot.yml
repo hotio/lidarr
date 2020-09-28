@@ -10,19 +10,19 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    target-branch: "stable"
+    target-branch: "release"
 
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
-    target-branch: "unstable"
+    target-branch: "testing"
 
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
-    target-branch: "semi-stable"
+    target-branch: "nightly"
 
   - package-ecosystem: "github-actions"
     directory: "/"
