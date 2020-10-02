@@ -13,20 +13,21 @@
 
 Just the basics to get the container running:
 
-```shell
-docker run --rm --name lidarr -p 8686:8686 -v /<host_folder_config>:/config hotio/lidarr
+```shell hl_lines="4 5 6 7 8 9"
+docker run --rm \
+    --name lidarr \
+    -p 8686:8686 \
+    -e PUID=1000 \
+    -e PGID=1000 \
+    -e UMASK=002 \
+    -e TZ="Etc/UTC" \
+    -e ARGS="" \
+    -e DEBUG="no" \
+    -v /<host_folder_config>:/config \
+    hotio/lidarr
 ```
 
-The environment variables below are all optional, the values you see are the defaults.
-
-```shell
--e PUID=1000
--e PGID=1000
--e UMASK=002
--e TZ="Etc/UTC"
--e ARGS=""
--e DEBUG="no"
-```
+The [highlighted](https://hotio.dev/containers/lidarr) variables are all optional, the values you see are the defaults.
 
 ## Tags
 
