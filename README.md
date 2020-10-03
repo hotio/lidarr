@@ -27,7 +27,7 @@ docker run --rm \
     hotio/lidarr
 ```
 
-The [highlighted](https://hotio.dev/containers/lidarr) variables are all optional, the values you see are the defaults.
+The [highlighted](https://hotio.dev/containers/lidarr) variables are all optional, the values you see are the defaults. In most cases you'll need to add an additional volume (`-v`) or more, depending on your own personal preference, to get access to additional files.
 
 ## Tags
 
