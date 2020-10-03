@@ -1,6 +1,6 @@
 # lidarr
 
-![logo](https://hotio.dev/img/lidarr.png)
+[<img src="https://hotio.dev/img/lidarr.png" alt="logo" height="130" width="130">](https://github.com/lidarr/Lidarr)
 
 ![Base](https://img.shields.io/badge/base-ubuntu-orange)
 [![GitHub](https://img.shields.io/badge/source-github-lightgrey)](https://github.com/hotio/docker-lidarr)
