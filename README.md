@@ -1,5 +1,3 @@
-# lidarr
-
 [<img src="https://hotio.dev/img/lidarr.png" alt="logo" height="130" width="130">](https://github.com/lidarr/Lidarr)
 
 ![Base](https://img.shields.io/badge/base-ubuntu-orange)
