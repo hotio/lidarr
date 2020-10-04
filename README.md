@@ -29,11 +29,11 @@ The [highlighted](https://hotio.dev/containers/lidarr) variables are all optiona
 
 ## Tags
 
-| Tag                    | Upstream |
-| -----------------------|----------|
-| `release` (latest)     | master   |
-| `testing`              | develop  |
-| `nightly`              | nightly  |
+| Tag                    | Upstream | Version |
+| -----------------------|----------|---------|
+| `release` (latest)     | master   | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocker-hotio%2Fdocker-lidarr%2Frelease%2FVERSION.json) |
+| `testing`              | develop  | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocker-hotio%2Fdocker-lidarr%2Ftesting%2FVERSION.json) |
+| `nightly`              | nightly  | ![version](https://img.shields.io/badge/dynamic/json?color=f5f5f5&style=flat-square&label=&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdocker-hotio%2Fdocker-lidarr%2Fnightly%2FVERSION.json) |
 
 You can also find tags that reference a commit or version number.
 
