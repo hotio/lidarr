@@ -1,4 +1,4 @@
 {
-  "version": "0.8.0.2008",
-  "branch": "sonarr-pull-ab478fd6"
+  "version": "0.8.0.2011",
+  "branch": "fix-smb-writable"
 }
