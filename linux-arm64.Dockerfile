@@ -26,4 +26,3 @@ RUN mkdir "${APP_DIR}/bin" && \
     chmod -R u=rwX,go=rX "${APP_DIR}"
 
 COPY root/ /
-
