@@ -22,7 +22,7 @@ elif [[ ${1} == "screenshot" ]]; then
     docker run --rm --network host --entrypoint="" -u "$(id -u "$USER")" -v "${GITHUB_WORKSPACE}":/usr/src/app/src zenika/alpine-chrome:with-puppeteer node src/puppeteer.js
     exit 0
 else
-    branch=$(curl -u "${GITHUB_ACTOR}:${GITHUB_TOKEN}" -fsSL "https://api.github.com/repos/lidarr/lidarr/pulls?state=open&base=develop" | jq -r 'sort_by(.updated_at) | .[] | select((.head.repo.full_name == "lidarr/Lidarr") and (.head.ref | contains("dependabot") | not)) | .head.ref' | tail -n 1)
+    branch=$(curl -u "${GITHUB_ACTOR}:${GITHUB_TOKEN}" -fsSL "https://api.github.com/repos/lidarr/lidarr/pulls?state=open&base=develop" | jq -r 'sort_by(.updated_at) | .[] | select((.head.repo.full_name == "Lidarr/Lidarr") and (.head.ref | contains("dependabot") | not)) | .head.ref' | tail -n 1)
     [[ -z ${branch} ]] && exit 0
     version=$(curl -fsSL "https://lidarr.servarr.com/v1/update/${branch}/changes?os=linux&runtime=netcore&arch=x64" | jq -r .[0].version)
     [[ -z ${version} ]] && exit 1
