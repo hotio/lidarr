@@ -2,7 +2,7 @@ FROM cr.hotio.dev/hotio/base@sha256:66c1cd47c5b50c6e3826ba7b4d0417ec1acd509b74de
 
 EXPOSE 8686
 
-RUN apk add --no-cache libintl sqlite-libs icu-libs
+RUN apk add --no-cache libintl sqlite-libs icu-libs chromaprint
 
 ARG VERSION
 ARG PACKAGE_VERSION=${VERSION}
