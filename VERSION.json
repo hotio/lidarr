@@ -1,3 +1,5 @@
 {
-  "version": "1.0.2.2592"
+  "version": "1.0.2.2592",
+  "upstream_image": "cr.hotio.dev/hotio/base",
+  "upstream_tag": "alpine"
 }
