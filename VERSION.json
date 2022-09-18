@@ -1,6 +1,6 @@
 {
-  "version": "1.1.1.2666",
-  "branch": "radarr-pull-b9185574",
+  "version": "1.1.1.2669",
+  "branch": "sonarr-pull-9c737862",
   "upstream_image": "cr.hotio.dev/hotio/base",
   "upstream_tag": "alpine",
   "upstream_digest_amd64": "sha256:62ed853582b58ffa765d853c0afc16445ac0ccb96815c37c458e3dd0fa12172b",
