@@ -1,4 +1,5 @@
 {
+  "hide": true,
   "version": "1.1.1.2669",
   "branch": "sonarr-pull-9c737862",
   "upstream_image": "cr.hotio.dev/hotio/base",
