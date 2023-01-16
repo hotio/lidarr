@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "1.1.2.2919",
+  "version": "1.1.2.2922",
   "branch": "old-sqlite",
   "upstream_image": "cr.hotio.dev/hotio/base",
   "upstream_tag": "alpine",
