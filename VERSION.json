@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "1.2.0.3125",
+  "version": "1.2.0.3126",
   "branch": "fix-integration-tests",
   "upstream_image": "cr.hotio.dev/hotio/base",
   "upstream_tag": "alpine",
