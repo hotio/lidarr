@@ -7,5 +7,14 @@
     ],
     "last_updated": "2023-09-08T01:38:39.825Z",
     "latest": "false"
+  },
+  "nightly": {
+    "tags": [
+      "nightly",
+      "nightly-1.4.2.3576",
+      "nightly-7e26676"
+    ],
+    "last_updated": "2023-09-08T02:41:15.324Z",
+    "latest": "false"
   }
 }
