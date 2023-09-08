@@ -1,13 +1,4 @@
 {
-  "pr": {
-    "tags": [
-      "pr-plugins",
-      "pr-plugins-1.4.1.3564",
-      "pr-plugins-d64b8ab"
-    ],
-    "last_updated": "2023-09-08T01:38:39.825Z",
-    "latest": "false"
-  },
   "nightly": {
     "tags": [
       "nightly",
