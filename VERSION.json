@@ -1,7 +1,7 @@
 {
   "latest": true,
   "description": "master",
-  "version": "1.3.5.3530",
+  "version": "1.4.5.3639",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpine",
   "upstream_digest_amd64": "sha256:7eb56465879803137e0557977e6d983abb8131a77a6b57efdb24985166aee037",
