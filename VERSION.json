@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "2.0.0.3672",
+  "version": "2.0.0.3673",
   "branch": "lidarr-2",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpine",
