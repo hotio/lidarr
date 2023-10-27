@@ -1,7 +1,7 @@
 {
   "hide": true,
-  "version": "2.0.0.3698",
-  "branch": "index-selection",
+  "version": "2.0.0.3702",
+  "branch": "monitoring-options",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpine",
   "upstream_digest_amd64": "sha256:7eb56465879803137e0557977e6d983abb8131a77a6b57efdb24985166aee037",
