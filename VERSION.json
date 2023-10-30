@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "2.0.1.3750",
+  "version": "2.0.1.3752",
   "branch": "autotagging",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpine",
