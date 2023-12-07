@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "2.0.6.3838",
+  "version": "2.0.7.3841",
   "branch": "retag-abort-no-diff",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpine",
