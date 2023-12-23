@@ -1,6 +1,6 @@
 {
   "hide": true,
-  "version": "2.0.7.3848",
+  "version": "2.1.1.3878",
   "branch": "plugins",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpine",
