@@ -1,7 +1,7 @@
 {
   "hide": true,
-  "version": "2.1.4.3944",
-  "branch": "sonarr-pull-e66ba84f",
+  "version": "2.1.5.3965",
+  "branch": "replay-tags",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpinevpn",
   "upstream_digest_amd64": "sha256:a72ad24381bf3b2af53bdef6c7c780aeb59c0c1d6186a96a0df1cde75d59962d",
