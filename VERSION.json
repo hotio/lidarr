@@ -1,7 +1,7 @@
 {
   "hide": true,
-  "version": "2.1.7.3999",
-  "branch": "embed-cover-setting",
+  "version": "2.1.7.4004",
+  "branch": "artist-stats",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpinevpn",
   "upstream_digest_amd64": "sha256:cfee33d5f5c24786c2f8913e848513c62b9c0fb06cbb86fb97118718938e7ceb",
