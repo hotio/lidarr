@@ -1,12 +1,14 @@
 {
   "nightly": {
     "description": "nightly",
-    "last_updated": "2024-02-07T12:55:10.000Z",
+    "hide": false,
+    "last_updated": "2024-02-08T08:11:22.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/7826469001",
     "latest": false,
     "tags": [
       "nightly",
       "nightly-2.1.7.4022",
-      "nightly-b4190c7"
+      "nightly-e348a7f"
     ]
   },
   "release": {
