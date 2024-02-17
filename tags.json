@@ -26,13 +26,13 @@
   "release": {
     "description": "master",
     "hide": false,
-    "last_updated": "2024-02-17T12:44:34.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/7941667733",
+    "last_updated": "2024-02-17T13:29:27.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/7941966951",
     "latest": true,
     "tags": [
       "release",
       "release-2.1.7.4030",
-      "release-6adcba9"
+      "release-9d586b6"
     ]
   },
   "testing": {
