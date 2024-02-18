@@ -14,13 +14,13 @@
   "pr-artist-stats": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-02-17T23:47:32.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/7944982809",
+    "last_updated": "2024-02-18T00:48:33.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/7945318597",
     "latest": false,
     "tags": [
       "pr-artist-stats",
       "pr-artist-stats-2.1.7.4004",
-      "pr-artist-stats-ecd3ae9"
+      "pr-artist-stats-7e3985c"
     ]
   },
   "release": {
