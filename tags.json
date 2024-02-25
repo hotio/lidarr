@@ -50,13 +50,13 @@
   "testing": {
     "description": "develop",
     "hide": false,
-    "last_updated": "2024-02-24T18:35:36.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/8032393259",
+    "last_updated": "2024-02-25T05:04:11.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/8035642792",
     "latest": false,
     "tags": [
       "testing",
-      "testing-2.1.7.4030",
-      "testing-29baf63"
+      "testing-2.2.0.4045",
+      "testing-e0779f3"
     ]
   }
 }
