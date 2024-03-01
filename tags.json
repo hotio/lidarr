@@ -26,13 +26,13 @@
   "pr-sonarr-pull-5c4f8299": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-03-01T07:23:18.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/8107840357",
+    "last_updated": "2024-03-01T08:47:44.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/8108660318",
     "latest": false,
     "tags": [
       "pr-sonarr-pull-5c4f8299",
       "pr-sonarr-pull-5c4f8299-2.2.0.4047",
-      "pr-sonarr-pull-5c4f8299-aa701e7"
+      "pr-sonarr-pull-5c4f8299-f6bce3b"
     ]
   },
   "pr-sonarr-pull-c6071f6d": {
