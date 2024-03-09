@@ -23,6 +23,18 @@
       "pr-artist-stats-7112dd4"
     ]
   },
+  "pr-indexer-flags": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-03-09T09:47:52.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/8213693132",
+    "latest": false,
+    "tags": [
+      "pr-indexer-flags",
+      "pr-indexer-flags-2.2.2.4089",
+      "pr-indexer-flags-7327a1f"
+    ]
+  },
   "pr-sonarr-pull-5c4f8299": {
     "description": "",
     "hide": true,
