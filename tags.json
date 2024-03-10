@@ -26,13 +26,13 @@
   "pr-indexer-flags": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-03-09T09:47:52.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/8213693132",
+    "last_updated": "2024-03-10T11:58:09.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/8221739150",
     "latest": false,
     "tags": [
       "pr-indexer-flags",
-      "pr-indexer-flags-2.2.2.4089",
-      "pr-indexer-flags-7327a1f"
+      "pr-indexer-flags-2.2.3.4094",
+      "pr-indexer-flags-44e9755"
     ]
   },
   "pr-sonarr-pull-5c4f8299": {
