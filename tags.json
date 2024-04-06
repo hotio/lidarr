@@ -35,6 +35,18 @@
       "pr-indexer-flags-05cd60f"
     ]
   },
+  "pr-plugins": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-04-06T22:47:03.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/8584281918",
+    "latest": false,
+    "tags": [
+      "pr-plugins",
+      "pr-plugins-2.2.4.4129",
+      "pr-plugins-1f2ae86"
+    ]
+  },
   "pr-sonarr-pull-5c4f8299": {
     "description": "",
     "hide": true,
