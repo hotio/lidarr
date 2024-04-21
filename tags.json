@@ -23,6 +23,18 @@
       "pr-artist-stats-7112dd4"
     ]
   },
+  "pr-bump-dotnet-v6": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-04-21T16:49:58.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/8774128382",
+    "latest": false,
+    "tags": [
+      "pr-bump-dotnet-v6",
+      "pr-bump-dotnet-v6-2.3.1.4164",
+      "pr-bump-dotnet-v6-b8367d6"
+    ]
+  },
   "pr-indexer-flags": {
     "description": "",
     "hide": true,
