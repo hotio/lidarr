@@ -1,5 +1,5 @@
 {
-  "branch": "bump-dotnet-v6",
+  "branch": "plugins",
   "hide": true,
   "test_amd64": true,
   "test_arm64": true,
@@ -8,5 +8,5 @@
   "upstream_digest_arm64": "sha256:7d87c2f37a294a495358095cca1c77e1860bd122fe3a60e40d969ef245e3868d",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpinevpn",
-  "version": "2.3.1.4164"
+  "version": "2.2.5.4140"
 }
