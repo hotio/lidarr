@@ -38,13 +38,13 @@
   "pr-extras-for-albums": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-04-25T19:49:56.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/8838485636",
+    "last_updated": "2024-04-25T21:10:43.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/8839402494",
     "latest": false,
     "tags": [
       "pr-extras-for-albums",
-      "pr-extras-for-albums-2.3.0.4154",
-      "pr-extras-for-albums-6fd0825"
+      "pr-extras-for-albums-2.3.1.4170",
+      "pr-extras-for-albums-c3278a0"
     ]
   },
   "pr-indexer-flags": {
