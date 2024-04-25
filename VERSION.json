@@ -1,5 +1,5 @@
 {
-  "branch": "plugins",
+  "branch": "extras-for-albums",
   "hide": true,
   "test_amd64": true,
   "test_arm64": true,
@@ -8,5 +8,5 @@
   "upstream_digest_arm64": "sha256:a9664638b68ff636f7fcd54c17746bbc1a9323bc5f7de81529c9b1e1f1704d83",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpinevpn",
-  "version": "2.3.1.4168"
+  "version": "2.3.0.4154"
 }
