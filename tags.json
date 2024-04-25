@@ -35,6 +35,18 @@
       "pr-bump-dotnet-v6-b8367d6"
     ]
   },
+  "pr-extras-for-albums": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-04-25T19:49:56.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/8838485636",
+    "latest": false,
+    "tags": [
+      "pr-extras-for-albums",
+      "pr-extras-for-albums-2.3.0.4154",
+      "pr-extras-for-albums-6fd0825"
+    ]
+  },
   "pr-indexer-flags": {
     "description": "",
     "hide": true,
