@@ -134,13 +134,13 @@
   "testing": {
     "description": "develop",
     "hide": false,
-    "last_updated": "2024-04-28T04:04:00.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/8864883947",
+    "last_updated": "2024-05-05T04:04:10.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/8955530004",
     "latest": false,
     "tags": [
       "testing",
-      "testing-2.3.0.4159",
-      "testing-6da8eb6"
+      "testing-2.3.1.4171",
+      "testing-d41813d"
     ]
   }
 }
