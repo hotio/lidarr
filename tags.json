@@ -71,6 +71,18 @@
       "pr-plugins-df4f2f1"
     ]
   },
+  "pr-sonarr-pull-47ba0028": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-05-05T02:41:24.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/8955130330",
+    "latest": false,
+    "tags": [
+      "pr-sonarr-pull-47ba0028",
+      "pr-sonarr-pull-47ba0028-2.3.2.4185",
+      "pr-sonarr-pull-47ba0028-3258175"
+    ]
+  },
   "pr-sonarr-pull-5061dc4b": {
     "description": "",
     "hide": true,
