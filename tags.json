@@ -62,13 +62,13 @@
   "pr-plugins": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-05-13T13:10:10.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/9063456341",
+    "last_updated": "2024-05-19T09:25:09.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/9146524125",
     "latest": false,
     "tags": [
       "pr-plugins",
       "pr-plugins-2.3.3.4203",
-      "pr-plugins-2f46671"
+      "pr-plugins-b6e23c0"
     ]
   },
   "pr-sonarr-pull-47ba0028": {
