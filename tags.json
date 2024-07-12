@@ -71,6 +71,18 @@
       "pr-plugins-88ae144"
     ]
   },
+  "pr-sonarcloud": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-07-12T12:24:04.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/9907759372",
+    "latest": false,
+    "tags": [
+      "pr-sonarcloud",
+      "pr-sonarcloud-2.4.3.4245",
+      "pr-sonarcloud-1f469bb"
+    ]
+  },
   "pr-sonarr-pull-47ba0028": {
     "description": "",
     "hide": true,
