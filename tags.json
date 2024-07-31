@@ -83,6 +83,18 @@
       "pr-sonarcloud-1f469bb"
     ]
   },
+  "pr-sonarr-pull-11a9dcb3": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-07-31T05:07:18.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/10174373097",
+    "latest": false,
+    "tags": [
+      "pr-sonarr-pull-11a9dcb3",
+      "pr-sonarr-pull-11a9dcb3-2.5.1.4290",
+      "pr-sonarr-pull-11a9dcb3-43449be"
+    ]
+  },
   "pr-sonarr-pull-47ba0028": {
     "description": "",
     "hide": true,
