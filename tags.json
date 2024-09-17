@@ -47,6 +47,18 @@
       "pr-extras-for-albums-e07aac5"
     ]
   },
+  "pr-improve-handling-audio-files": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-09-17T17:50:01.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/10908302819",
+    "latest": false,
+    "tags": [
+      "pr-improve-handling-audio-files",
+      "pr-improve-handling-audio-files-2.6.1.4357",
+      "pr-improve-handling-audio-files-0f62a95"
+    ]
+  },
   "pr-indexer-flags": {
     "description": "",
     "hide": true,
