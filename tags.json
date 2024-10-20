@@ -227,6 +227,18 @@
       "pr-sonarr-pull-f2f4a98e-8d40f0e"
     ]
   },
+  "pr-updates-improvements": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2024-10-20T02:57:22.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/11422843227",
+    "latest": false,
+    "tags": [
+      "pr-updates-improvements",
+      "pr-updates-improvements-2.7.0.4411",
+      "pr-updates-improvements-cdecd0f"
+    ]
+  },
   "release": {
     "description": "master",
     "hide": false,
