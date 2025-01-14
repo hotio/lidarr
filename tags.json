@@ -95,6 +95,18 @@
       "pr-plugins-1557d85"
     ]
   },
+  "pr-release-titles-colon": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-01-14T02:18:22.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/12759777868",
+    "latest": false,
+    "tags": [
+      "pr-release-titles-colon",
+      "pr-release-titles-colon-2.9.4.4530",
+      "pr-release-titles-colon-5a20700"
+    ]
+  },
   "pr-sonarcloud": {
     "description": "",
     "hide": true,
