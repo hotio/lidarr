@@ -47,6 +47,18 @@
       "pr-bump-packages-e68ae87"
     ]
   },
+  "pr-clean-up-recycle-bin": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-02-04T02:33:10.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/13127130280",
+    "latest": false,
+    "tags": [
+      "pr-clean-up-recycle-bin",
+      "pr-clean-up-recycle-bin-2.10.0.4554",
+      "pr-clean-up-recycle-bin-7245f2a"
+    ]
+  },
   "pr-extras-for-albums": {
     "description": "",
     "hide": true,
