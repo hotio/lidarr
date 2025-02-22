@@ -110,13 +110,13 @@
   "pr-plugins": {
     "description": "",
     "hide": true,
-    "last_updated": "2025-02-19T16:10:15.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/13417047129",
+    "last_updated": "2025-02-22T15:21:53.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/13474145576",
     "latest": false,
     "tags": [
       "pr-plugins",
-      "pr-plugins-2.10.0.4570",
-      "pr-plugins-bb97040"
+      "pr-plugins-2.10.0.4573",
+      "pr-plugins-9c51a5c"
     ]
   },
   "pr-release-titles-colon": {
