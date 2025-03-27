@@ -110,13 +110,13 @@
   "pr-media-file-track-path-normalize": {
     "description": "",
     "hide": true,
-    "last_updated": "2025-03-26T18:40:27.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/14090966817",
+    "last_updated": "2025-03-27T18:36:55.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/14114156447",
     "latest": false,
     "tags": [
       "pr-media-file-track-path-normalize",
-      "pr-media-file-track-path-normalize-2.11.0.4607",
-      "pr-media-file-track-path-normalize-1ae41b7"
+      "pr-media-file-track-path-normalize-2.11.0.4609",
+      "pr-media-file-track-path-normalize-02d76a7"
     ]
   },
   "pr-plugins": {
