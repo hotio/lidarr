@@ -62,13 +62,13 @@
   "pr-extras-for-albums": {
     "description": "",
     "hide": true,
-    "last_updated": "2024-04-26T04:16:38.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/8842984267",
+    "last_updated": "2025-06-16T10:42:36.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/15678574284",
     "latest": false,
     "tags": [
       "pr-extras-for-albums",
-      "pr-extras-for-albums-2.3.1.4170",
-      "pr-extras-for-albums-e07aac5"
+      "pr-extras-for-albums-2.13.1.4668",
+      "pr-extras-for-albums-1e019f3"
     ]
   },
   "pr-import-paths-logging": {
