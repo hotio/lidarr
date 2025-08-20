@@ -2,13 +2,13 @@
   "nightly": {
     "description": "nightly",
     "hide": false,
-    "last_updated": "2025-08-17T19:17:07.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/17024862853",
+    "last_updated": "2025-08-20T17:11:04.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/17105270868",
     "latest": false,
     "tags": [
       "nightly",
-      "nightly-2.13.3.4689",
-      "nightly-7b02355"
+      "nightly-2.13.3.4691",
+      "nightly-b50a3ea"
     ]
   },
   "pr-artist-stats": {
