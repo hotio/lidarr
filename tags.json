@@ -71,6 +71,18 @@
       "pr-extras-for-albums-1e019f3"
     ]
   },
+  "pr-handle-bad-artist-search": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-08-27T01:04:22.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/17254362071",
+    "latest": false,
+    "tags": [
+      "pr-handle-bad-artist-search",
+      "pr-handle-bad-artist-search-2.14.1.4700",
+      "pr-handle-bad-artist-search-1ba9f9b"
+    ]
+  },
   "pr-import-paths-logging": {
     "description": "",
     "hide": true,
