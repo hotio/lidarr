@@ -359,6 +359,18 @@
       "pr-sonarr-pull-f2f4a98e-8d40f0e"
     ]
   },
+  "pr-tag-fix": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-09-05T21:49:29.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/17505195572",
+    "latest": false,
+    "tags": [
+      "pr-tag-fix",
+      "pr-tag-fix-2.14.1.4729",
+      "pr-tag-fix-37ae754"
+    ]
+  },
   "pr-updates-improvements": {
     "description": "",
     "hide": true,
