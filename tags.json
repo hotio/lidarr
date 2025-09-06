@@ -119,6 +119,18 @@
       "pr-indexer-flags-05cd60f"
     ]
   },
+  "pr-manual-import-performance-limit": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-09-06T15:35:11.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/17516324803",
+    "latest": false,
+    "tags": [
+      "pr-manual-import-performance-limit",
+      "pr-manual-import-performance-limit-2.14.1.4743",
+      "pr-manual-import-performance-limit-7d76839"
+    ]
+  },
   "pr-media-file-track-path-normalize": {
     "description": "",
     "hide": true,
