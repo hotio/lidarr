@@ -47,6 +47,18 @@
       "pr-bump-packages-e68ae87"
     ]
   },
+  "pr-bumps-and-pulls": {
+    "description": "",
+    "hide": true,
+    "last_updated": "2025-10-03T00:45:20.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/18209495264",
+    "latest": false,
+    "tags": [
+      "pr-bumps-and-pulls",
+      "pr-bumps-and-pulls-2.14.4.4815",
+      "pr-bumps-and-pulls-c36bb81"
+    ]
+  },
   "pr-clean-up-recycle-bin": {
     "description": "",
     "hide": true,
