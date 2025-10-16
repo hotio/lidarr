@@ -38,13 +38,13 @@
   "pr-bump-dotnet8": {
     "description": "",
     "hide": true,
-    "last_updated": "2025-10-14T22:49:25.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/18512164025",
+    "last_updated": "2025-10-16T17:38:57.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/18569786596",
     "latest": false,
     "tags": [
       "pr-bump-dotnet8",
       "pr-bump-dotnet8-3.0.0.4854",
-      "pr-bump-dotnet8-2b6b2bf"
+      "pr-bump-dotnet8-29a3c58"
     ]
   },
   "pr-bump-packages": {
