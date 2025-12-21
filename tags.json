@@ -470,13 +470,13 @@
   "release": {
     "description": "master",
     "hide": false,
-    "last_updated": "2025-12-21T03:46:58.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/20404081467",
+    "last_updated": "2025-12-21T05:26:20.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/20405078635",
     "latest": true,
     "tags": [
       "release",
       "release-3.1.0.4875",
-      "release-bdd3d17"
+      "release-f229384"
     ]
   },
   "testing": {
