@@ -470,13 +470,13 @@
   "release": {
     "description": "master",
     "hide": false,
-    "last_updated": "2025-12-22T01:28:33.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/20418863326",
+    "last_updated": "2025-12-23T01:30:25.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/20448523543",
     "latest": true,
     "tags": [
       "release",
       "release-3.1.0.4875",
-      "release-6e1736c"
+      "release-2c9d185"
     ]
   },
   "testing": {
