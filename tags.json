@@ -480,15 +480,19 @@
     ]
   },
   "testing": {
+    "commit_message": "Version update: 3.1.1.4876 => 3.1.1.4900",
     "description": "develop",
     "hide": false,
-    "last_updated": "2025-12-31T17:26:24.000Z",
-    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/20623607697",
+    "last_updated": "2026-01-04T05:01:42.000Z",
+    "last_updated_url": "https://github.com/hotio/lidarr/actions/runs/20687936546",
     "latest": false,
     "tags": [
       "testing",
-      "testing-3.1.1.4876",
-      "testing-c60ad98"
+      "testing-3.1.1.4900",
+      "testing-5614940",
+      "",
+      "",
+      ""
     ]
   }
 }
