@@ -1,13 +1,13 @@
 {
   "description": "master",
   "latest": true,
-  "packages_hash": "d6390100c546a6b4cd272595a957a26670155313",
+  "packages_hash": "1c7ac19e47b20bdca2cc1e1f84e31d4afdaec78b",
   "test_amd64": true,
   "test_arm64": true,
   "test_url": "http://localhost:8686/system/status",
   "upstream_image": "ghcr.io/hotio/base",
   "upstream_tag": "alpinevpn",
-  "upstream_tag_sha": "alpinevpn-e6491e4",
+  "upstream_tag_sha": "alpinevpn-7984fff",
   "version": "3.1.0.4875",
   "version_branch": "master"
 }
