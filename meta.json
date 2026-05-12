@@ -1,7 +1,6 @@
 {
   "description": "master",
   "latest": true,
-  "packages_hash": "1c7ac19e47b20bdca2cc1e1f84e31d4afdaec78b",
   "test_amd64": true,
   "test_arm64": true,
   "test_url": "http://localhost:8686/system/status",
