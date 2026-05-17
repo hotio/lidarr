@@ -12,7 +12,6 @@ ARG VERSION
 ARG VERSION_BRANCH
 ARG PACKAGE_VERSION=${VERSION}
 
-# install app
 RUN mkdir "${APP_DIR}/bin" && \
     curl -fsSL "https://lidarr.servarr.com/v1/update/${VERSION_BRANCH}/updatefile?version=${VERSION}&os=linuxmusl&runtime=netcore&arch=x64" | tar xzf - -C "${APP_DIR}/bin" --strip-components=1 && \
     rm -rf "${APP_DIR}/bin/Lidarr.Update" && \
