@@ -1,4 +1,4 @@
-aom-libs=3.13.1-r1
+aom-libs=3.14.1-r0
 chromaprint-libs=1.6.0-r0
 chromaprint=1.6.0-r0
 cjson=1.7.19-r1
